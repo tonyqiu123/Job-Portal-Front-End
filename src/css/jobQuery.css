@@ -1,0 +1,78 @@
+/* job search inputs */
+.searchJobs-inputContainer {
+    gap: 24px;
+    align-items: flex-start;
+}
+.searchJobs-inputContainer > :nth-child(2) {
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.resultsText {
+    gap: 24px;
+}
+.searchJobs-input {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    width: 100%;
+}
+.searchJobs-relative {
+    position: relative;
+}
+.searchJobs-relative > input {
+    width: 100%;
+    border-radius: 3px;
+    padding: 10px 10px 10px 40px;
+    border: 1px solid var(--neutral-3);
+    background-color: var(--neutral-1);
+    font-weight: 100;
+}
+.searchJobs-relative > img {
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    width: 20px;
+    opacity: .3;
+}
+.searchJobs-relative > input::placeholder {
+    color: rgb(153, 153, 153);
+    font-weight: 200;
+    font-size: 16px;
+}
+.dropDown > input {
+    padding-left: 14px;
+    cursor: default;
+}
+.dropDown > img {
+    left: unset;
+    right: 14px;
+}
+.dropDown-twoColumns {
+    grid-template-columns: 1fr 1fr !important;
+}
+/* job query results */
+.jobQueryBody {
+    gap: 24px;
+}
+.job {
+    box-shadow: var(--shadow-s);
+    border: 1px solid var(--neutral-3);
+    padding: 24px;
+    border-radius: 5px;
+    background-color: var(--neutral-1);
+}
+.job-left {
+    gap: 14px;
+}
+.tagsContainer {
+    gap: 10px;
+}
+.tagsContainer > p {
+    padding: 4px 8px; 
+    background-color: var(--neutral-2);
+    border-radius: 5px;
+    font-size: 14px;
+    color: var(--neutral-4);
+}
+.job-right {
+    gap: 8px;
+}

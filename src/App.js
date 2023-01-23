@@ -1,10 +1,10 @@
 import SideNavBar from "./components/SideNavBar"
-import Home from "./pages/Home"
-import Projects from "./pages/Projects"
-import Blog from "./pages/Blog"
+import SearchJobs from "./pages/SearchJobs"
+import Applications from "./pages/Applications"
+import Shortlist from "./pages/Shortlist"
+import Profile from "./pages/Profile"
 import { Route, Routes } from 'react-router-dom'
 import React, { useEffect,useState } from 'react';
-import BlogPost from './components/BlogPost'
 import {AnimatePresence} from "framer-motion";
 
 function App() {
@@ -25,12 +25,10 @@ function App() {
       <div className='dummyMargin'></div>
       <AnimatePresence>
         <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route exact path="/projects" element={<Projects />}/>
-          <Route exact path="/blog" element={<Blog blogData={blogData}/>}/>
-          {blogData.map(blog => (
-            <Route key={blog._id} path={`/blog/${blog.title.replace(/\s+/g, '-')}`} element={<BlogPost data={blog} />} />
-          ))}
+          <Route path="/search" element={<SearchJobs />}/>
+          <Route path="/applications" element={<Applications />}/>
+          <Route path="/shortlist" element={<Shortlist />}/>
+          <Route path="/profile" element={<Profile />}/>
         </Routes>
       </AnimatePresence>
     </div>

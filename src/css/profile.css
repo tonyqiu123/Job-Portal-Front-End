@@ -1,0 +1,86 @@
+.profileBody {
+    align-items: unset;
+    gap: 32px;
+}
+.profileBody h2 {
+    font-size: 32px;
+}
+.profileBody > :first-child {
+    width: fit-content;
+}
+.profileSubBody {
+    gap: 32px;
+    width: 100%;
+    justify-content: unset;
+}
+.profileCard {
+    box-shadow: var(--shadow-m);
+    padding: 32px;
+    background-color: var(--neutral-1);
+    border-radius: 10px;
+    border: 1px solid var(--neutral-3);
+    position: relative;
+    gap: 24px;
+    align-items: flex-start;
+}
+.profileCard > .row {
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 100%;
+}
+.contacts-pfp, .contacts > h2 {
+    margin: auto;
+}
+.contacts > img {
+    border-radius: 50%;
+    width: 175px;
+}
+.contacts > .row {
+    align-items: center;
+    gap: 10px;
+    width: fit-content;
+}
+.contacts > .row > img {
+    width: 24px;
+}
+.edit {
+    cursor: pointer;
+    border-radius: 0 !important;
+    width: 24px !important;
+    position: absolute;
+    top: 28px;
+    right: 28px;
+    transition: opacity .2s;
+}
+.edit:hover {
+    opacity: .4;
+}
+.editAndDeleteBody {
+    margin-left: auto;
+    gap: 12px;
+}
+.editAndDeleteBody > img {
+    width: 18px;
+    cursor: pointer;
+    transition: opacity.2s;
+}
+.editAndDeleteBody > img:hover {
+    opacity: .4;
+}
+.experience > .row {
+    gap: 16px;
+}
+.experience-row > img {
+    width: 60px;
+}
+.experience-row > .column > p:nth-child(2) , .experience-row > .column > p:nth-child(4), .projects-column > p:nth-child(3) {
+    font-size: 16px;
+}
+.experience-row > .column > p:nth-child(3), .projects-column > p:nth-child(2) {
+    color: rgb(155, 155, 155);
+    font-size: 14px;
+}
+.questionBody {
+    width: 100%;
+    gap: 8px;
+}
