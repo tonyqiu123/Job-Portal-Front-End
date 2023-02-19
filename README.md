@@ -1,6 +1,6 @@
 <h1>Work In Progress</h1>
 
-<p>Started work on January 7th</p>
+<p>Started work on January 20th</p>
 <h1>Features completed:</h1>
 <h3>APPLICANTS:</h3>
 <p>1. <b>Applicant login:</b> <i>front-end + back-end</i></p>
