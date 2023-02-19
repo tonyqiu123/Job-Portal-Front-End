@@ -8,7 +8,7 @@
 <p>3. <b>Saved responses to background checks:</b> <i>front-end</i></p>
 <p>4. <b>Ability to shortlist jobs:</b> <i>front-end + back-end</i></p>
 <p>5. <b>Ability to apply to jobs:</b> <i>front-end + back-end</i></p>
-<p>5. <b>Ability to sort jobs:</b> <i>front-end + back-end</i></p>
+<p>6. <b>Ability to sort jobs:</b> <i>front-end + back-end</i></p>
 <h3>ADMIN:</h3>
 <p>1. <b>Admin login:</b> <i>front-end + back-end</i></p>
 <p>2. <b>CRUD jobs:</b> <i>back-end</i></p>
