@@ -1,0 +1,38 @@
+
+.landing {
+    height: 100vh;
+    gap: 32px;
+    background-color: var(--neutral-1);
+}
+.landing > img {
+    position: absolute;
+    top: 24px;
+    left: 24px;
+    width: 140px;
+}
+.landing-left {
+    margin: auto;
+    gap: 32px;
+    padding: 24px;
+    width: 100%;
+    max-width: 600px;
+}
+.landing-left > h3 {
+    line-height: 140%;
+}
+.ctaContainer {
+    width: fit-content;
+    gap: 24px;
+}
+.landing-right {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.landing-right > img {
+    position: absolute;
+    inset: -9999px;
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+}
