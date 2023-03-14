@@ -15,5 +15,4 @@
 
 <i>progress as of February 8th, 2023</i>
 <img src="https://cdn.discordapp.com/attachments/715319623637270638/1069371867804205056/image.png"/>
-  
- 
+<img src="https://cdn.discordapp.com/attachments/715319623637270638/1084997258749161583/image.png"/>
