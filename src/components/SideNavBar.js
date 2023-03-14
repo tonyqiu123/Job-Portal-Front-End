@@ -8,6 +8,7 @@ import search from '../images/search.svg'
 import applications from '../images/applications.svg'
 import shortlist from '../images/shortlist.svg'
 import profile from '../images/profile.svg'
+import surveyIcon from '../images/surveyIcon.svg'
 import signOut from '../images/sign-out.svg'
 
 export default function SideNavBar() {
@@ -45,6 +46,10 @@ export default function SideNavBar() {
                 <Link to="/profile" className='sideNav-top-link row' id={location.pathname === '/profile' ? 'activeNavLink' : ''}>
                     <img src={profile}/>
                     <p>Profile</p>
+                </Link>
+                <Link to="/survey" className='sideNav-top-link row' id={location.pathname === '/survey' ? 'activeNavLink' : ''}>
+                    <img src={surveyIcon}/>
+                    <p>Survey</p>
                 </Link>
                 <div className='hr'></div>
             </div>

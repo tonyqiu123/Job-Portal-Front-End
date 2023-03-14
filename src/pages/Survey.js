@@ -22,7 +22,7 @@ export default function Survey() {
         <div className='body'>
         <div className='dummyMargin'></div>
         <section className='column'>
-            <h3>Profile</h3>
+            <h3>Survey</h3>
             <div className='profileBody row'>
             <div className='profileSubBody column'>
                     <div className='profileCard information column'>
